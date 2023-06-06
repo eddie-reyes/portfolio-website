@@ -183,8 +183,9 @@ body {
 
     .projects-layout > h1 {
 
+        transform: unset !important;
         position: relative;
-        left: 25%;
+        left: 40%;
         
     }
 
@@ -226,13 +227,6 @@ body {
 
         width: 80%;
 
-    }
-
-    .projects-layout > h1 {
-
-        position: relative;
-        left: 10%;
-        
     }
 
     li {
