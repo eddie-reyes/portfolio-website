@@ -9,8 +9,8 @@ interface Props {
 const NavLink = ({ content, textIcon, link }: Props) => {
   return (
     <>
-      <li className="list-group-item m-4">
-        <a href={link} className="link-light text-decoration-none nav">
+      <li className="list-group-item m-3 nav align-self-center text-center">
+        <a href={link} className="link-light text-decoration-none">
           <span className={"fa fa-fw mx-2 " + textIcon}></span>
           {content}
           <span className="fa fa-fw mx-2"></span>

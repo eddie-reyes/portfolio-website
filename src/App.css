@@ -7,6 +7,12 @@ body {
     
 }
 
+.nav {
+
+    width: 200px;
+    
+}
+
 .nav:hover {
 
 
@@ -16,6 +22,7 @@ body {
 .navbar {
 
     z-index: 2;
+
 }
 
 .fa {
@@ -36,6 +43,12 @@ body {
     padding: 80px;
     opacity: 0.2;   
     
+}
+
+.variable-text {
+
+    display: inline-block;
+
 }
 
 .headshot {
@@ -196,7 +209,16 @@ body {
     
     }
 
-    
+    .variable-text {
+
+        display: block;
+
+    }
+
+    .descriptor {
+
+        margin: 1rem !important;
+    }
     
 }
 
@@ -209,7 +231,7 @@ body {
 
     .section {
 
-        margin: 10rem auto;
+        margin: 10rem 1rem;
 
     }
 
@@ -220,7 +242,12 @@ body {
 
     .descriptor {
 
-        margin: 2rem;
+        margin: auto auto;
+    }
+
+    .nav {
+
+        font-size: 0.8rem;
     }
 
     .form-group {

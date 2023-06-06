@@ -60,11 +60,13 @@ const InfoSection = () => {
       <h1 className="text-secondary">&lt;About Me/&gt;</h1>
       <h2 className="text-white descriptor">
         &gt; Hi, my name is Eddie and I develop&nbsp;
-        {variableText}
-        <span className="pipe">|</span>.
+        <div className="variable-text">
+          {variableText}
+          <span className="pipe">|</span>.
+        </div>
       </h2>
       <img
-        className="headshot d-block position-relative float-right"
+        className="headshot d-block position-relative float-right p-3"
         src={headshot}
         alt="Headshot"
       />
