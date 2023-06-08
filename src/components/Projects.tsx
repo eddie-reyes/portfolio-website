@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import mundos from "../images/mundos.gif";
+import { Tooltip } from "bootstrap";
 
 const Projects = () => {
+  const toolTipRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const tooltip = new Tooltip(toolTipRef.current as Element, {
+      title:
+        "Please wait for the AWS server to boot up, then refresh the page.",
+      placement: "bottom",
+      trigger: "hover",
+    });
+  });
+
   return (
     <section className="section" id="projects-section">
       <h1 className="text-secondary">&lt;Projects/&gt;</h1>
@@ -22,7 +34,11 @@ const Projects = () => {
                 An online multiplayer game inspired by Katamari Damacy. Roll
                 around and collect mass in order to become the champion.
               </p>
-              <button className="btn btn-primary">
+              <button
+                type="button"
+                className="btn btn-primary"
+                ref={toolTipRef}
+              >
                 <a
                   className="link-light text-decoration-none"
                   href="http://mundos.io"
