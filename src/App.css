@@ -102,13 +102,11 @@ body {
 
     transform: translateX(-100px);
 
-
 }
 
 .projects-layout > h1 {
 
-    margin-bottom: 20rem;
-    
+    margin-bottom: 20rem;    
 
 }
 
@@ -135,7 +133,7 @@ body {
 
 .project-cards {
 
-    transform: translateY(25%);
+    margin-top: 13rem;
 
 }
 
@@ -254,6 +252,11 @@ body {
 
         width: 80%;
 
+    }
+
+    .project-1 {
+
+        font-size: 0.8rem;
     }
 
     li {

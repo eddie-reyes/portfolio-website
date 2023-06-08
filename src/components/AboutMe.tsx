@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import headshot from "../images/headshot.png";
-import { Tooltip } from "bootstrap";
 
 const devOptions = ["websites", "video games", "mobile apps", "software"];
 
@@ -25,13 +24,6 @@ const InfoSection = () => {
         isTyping ? appendCharacters() : popCharacters();
       }
     }, 100);
-
-    const tooltipTriggerList = document.querySelectorAll(
-      '[data-bs-toggle="tooltip"]'
-    );
-    const tooltipList = [...tooltipTriggerList].map(
-      (tooltipTriggerEl) => new Tooltip(tooltipTriggerEl)
-    );
 
     return () => {
       clearInterval(typingInterval);

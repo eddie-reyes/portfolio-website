@@ -11,7 +11,10 @@ const Skills = () => {
           <li className="ps-5 mb-2">
             Front-end: Javascript, Typescript, CSS, HTML, React, Bootstrap
           </li>
-          <li className="ps-5 ">Back-end: PostgreSQL, Node.js</li>
+          <li className="ps-5 ">
+            Back-end: PostgreSQL, GraphQL, Apollo, Node.js, TypeORM, Redis,
+            Next.js
+          </li>
         </div>
         <div className="skills-section">
           <h2 className="mb-3">&gt; Game Development</h2>
