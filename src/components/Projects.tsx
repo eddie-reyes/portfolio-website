@@ -27,7 +27,7 @@ const Projects = () => {
                     <ProjectCard
                         header="trendplots.com - 2023"
                         image={trendplots}
-                        description="A graphical visualiztion of trend data from google.trends.com"
+                        description="A graphical visualization of trend data from google.trends.com"
                         hyperlink="https://trendplots.com"
                         toolTipDescription="Not currently deployed due to server costs"
                     />
