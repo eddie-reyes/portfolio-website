@@ -22,12 +22,12 @@ const Projects = () => {
                         description="An online multiplayer game inspired by Katamari Damacy. Roll around and
                         collect mass in order to become the champion."
                         hyperlink="http://mundos.io"
-                        toolTipDescription="Please wait for the AWS server to boot up, then refresh the page."
+                        toolTipDescription="Not currently deployed due to server costs"
                     />
                     <ProjectCard
                         header="trendplots.com - 2023"
                         image={trendplots}
-                        description="A real-time graphical visualization of global trend data from trends.google.com"
+                        description="Not currently deployed due to server costs"
                         hyperlink="https://trendplots.com"
                         toolTipDescription=""
                     />
