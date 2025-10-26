@@ -1,6 +1,7 @@
 import mundos from '../images/mundos.gif';
 import trendplots from '../images/trendplots.png';
 import ProjectCard from './ProjectCard';
+import gamedev from '../images/gamedev.png';
 
 const Projects = () => {
     return (
@@ -30,6 +31,13 @@ const Projects = () => {
                         description="A graphical visualization of trend data from google.trends.com"
                         hyperlink="https://trendplots.com"
                         toolTipDescription="Not currently deployed due to server costs"
+                    />
+                    <ProjectCard
+                        header="Game Dev Projects"
+                        image={gamedev}
+                        description="A playlist showcasing my personal Game Dev projects"
+                        hyperlink="https://www.youtube.com/playlist?list=PL8MuTz7tA5hgow9mnktdV6zl_iOVhz4bR"
+                        toolTipDescription="External link to YouTube"
                     />
                 </div>
             </div>
