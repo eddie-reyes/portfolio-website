@@ -35,7 +35,7 @@ const Projects = () => {
                     <ProjectCard
                         header="Game Dev Projects"
                         image={gamedev}
-                        description="A playlist showcasing my personal Game Dev projects"
+                        description="A playlist of videos showcasing my personal Game Dev projects"
                         hyperlink="https://www.youtube.com/playlist?list=PL8MuTz7tA5hgow9mnktdV6zl_iOVhz4bR"
                         toolTipDescription="External link to YouTube"
                     />
