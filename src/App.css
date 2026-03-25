@@ -38,6 +38,7 @@ body {
 .headshot {
     border-radius: 50%;
     margin-left: 60%;
+    width: 35rem;
 }
 
 .skills-section {
