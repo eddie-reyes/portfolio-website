@@ -16,6 +16,11 @@ const Header = () => {
             link="#projects-section"
           />
           <NavLink
+            content="Resume"
+            textIcon="fa-file-arrow-down"
+            link="/download-resume"
+          />
+          <NavLink
             content="GitHub"
             textIcon="fa-github"
             link="https://github.com/eddie-reyes"
