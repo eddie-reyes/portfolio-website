@@ -5,9 +5,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
-import Resume, { resumeRoutePath } from './components/Resume';
 
-const PortfolioPage = () => {
+const App = () => {
     return (
         <>
             <SVGGrid />
@@ -21,14 +20,6 @@ const PortfolioPage = () => {
             <Footer />
         </>
     );
-};
-
-const App = () => {
-    if (window.location.pathname === resumeRoutePath) {
-        return <Resume />;
-    }
-
-    return <PortfolioPage />;
 };
 
 export default App;
