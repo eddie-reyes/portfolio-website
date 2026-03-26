@@ -1,6 +1,17 @@
 import resumeFile from './resume.pdf';
+import { useEffect } from 'react';
 
 const Resume = () => {
+    useEffect(() => {
+        const link = document.createElement('a');
+        link.href = resumeFile;
+        link.download = 'Eddie_Reyes_resume_2026.pdf';
+        link.rel = 'noopener';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }, []);
+
     return (
         <main className="container py-5 text-center text-white">
             <h1 className="mb-3">Downloading your PDF…</h1>
